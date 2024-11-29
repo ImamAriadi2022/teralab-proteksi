@@ -6,6 +6,8 @@ import CategorySection from './components/CategorySection';
 import Mentor from './components/Mentor';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import FloatingActionButton from "./components/FloatingActionButton";
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
       <Mentor />
       <Testimonial />
       <Footer />
+      <FloatingActionButton />
     </>
   );
 };

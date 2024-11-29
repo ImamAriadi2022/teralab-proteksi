@@ -1,0 +1,56 @@
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+  }
+  
+  .fab-main {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .fab-main:hover {
+    transform: scale(1.1);
+  }
+  
+  .fab-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 3rem;
+  }
+  
+  .fab-option {
+    margin: 5px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 60px;            /* Tentukan lebar tombol */
+    height: 60px;           /* Tentukan tinggi tombol */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .fab-option:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
