@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+:root{
+    --primary-color: #201D50;
+    --cream-color: #E6E9AF;
+}
+
+.navbar{
+    background-image: url('../image/siger_overlay.svg');
+    background-size: 75%;
+    background-position: center top;
+    background-color: var(--primary-color) ;
+}
+
+.icon_teralab{
+    width: 50px;
+}
+
+.btn_masuk{
+    background-color: var(--cream-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+}
+.box_landing{
+    padding: 5.3rem 1rem;
+}
+
+section.category{
+    background-image: url('../image/siger_overlay.svg');
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center top;
+    background-color: #0C2462;
+}
+
+section.category .title_category{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: -25px;
+    padding: 3rem;
+    border: 4px solid var(--primary-color);
+    border-radius: 50px;
+}
+
+section.category .wrapper_category{
+    padding: 5.3rem 1rem;
+}
+
+section.category .box_category{
+    border-radius: 35px;
+    height: 100%;
+}
+
+section.category .text_category{
+    color: var(--primary-color);
+    background-color: #8EA3A6;
+}
+
+section.mentor{
+    padding: 5.3rem 1rem;
+}
+
+section.mentor .desc_mentor{
+    color: var(--primary-color);
+}
+
+
+section.mentor .wrapper_mentor{
+    scrollbar-width: none;
+}
+
+section.mentor .wrapper_box_mentor{
+    width: 324px;
+}
+
+section.mentor .box_mentor{
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px #1E1E1E61;
+    background-color: #8EA3A6;
+    padding: 10px;
+}
+
+section.mentor .text_mentor{
+    width: 55%;
+    color: var(--primary-color);
+}
+
+section.mentor .role_mentor{
+    color: var(--primary-color);
+    background-color: var(--cream-color);
+}
+
+section.mentor .wrapper_image_mentor{
+    width: 45%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #2D56BF 0%, #091D50 84.9%);
+}
+
+section.testimoni .title_testimoni{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: -29px;
+    background-color: var(--cream-color);
+    padding: 4rem;
+    border: 4px solid var(--primary-color);
+    border-radius: 50px;
+}
+
+section.testimoni .wrapper_testimoni{  
+    padding: 5rem 1rem;
+}
+
+section.testimoni .border_testi{
+    border-top: 8px solid var(--primary-color);
+}
+
+section.testimoni .box_testimoni{
+    background-color: #605EA1;
+    border-radius: 30px;
+    padding: 4rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    fill: #605EA1;
+}
+
+section.testimoni .testimoni_text{
+    width: 65%;
+}
+
+section.testimoni .testimoni_image{
+    width: 35%;
+}
+
+footer{
+    background-image: url('../image/siger_overlay.svg');
+    background-size: contain;
+    background-color: var(--primary-color);
+}
+
+footer .wrapper_footer{
+    padding: 5.3rem 1rem;
+}
+
+footer .icon_teralab_footer{
+    width: 80px;
+}
