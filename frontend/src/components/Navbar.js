@@ -1,8 +1,15 @@
 // src/components/Navbar.jsx
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom'; 
 
 const Navigation = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <Navbar expand="lg" className="navbar" variant="dark">
       <Container>
@@ -20,23 +27,18 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#kursus" className="text-white fw-bold px-4">
-              Kursus
+            <Nav.Link href="/" className="text-white fw-bold px-4">
+              Beranda
             </Nav.Link>
-            <Nav.Link href="#mentor" className="text-white fw-bold px-4">
-              Mentor
-            </Nav.Link>
-            <Nav.Link href="#forum" className="text-white fw-bold px-4">
-              Forum
-            </Nav.Link>
-            <Nav.Link href="#about" className="text-white fw-bold px-4">
+            <Nav.Link href="/about" className="text-white fw-bold px-4">
               Tentang Kami
             </Nav.Link>
             <Nav.Link
               href="#login"
               className="btn_masuk nav-link px-5 py-2 fw-bold ms-4"
-            >
-              Masuk
+              onClick={handleLogin}
+              >
+              Masuk/Daftar
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

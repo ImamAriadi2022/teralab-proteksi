@@ -24,7 +24,7 @@ const CategorySection = () => {
                   <Card.Img
                     variant="top"
                     src={`img/${category.img}`}
-                    className="img-fluid"
+                    className="img-fluid" style={{ height: '200px', objectFit: 'cover' }}
                   />
                   <Card.Body className="text_category text-center py-2 fw-bold fs-3">
                     {category.title}

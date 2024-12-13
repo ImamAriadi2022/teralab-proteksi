@@ -1,0 +1,9 @@
+.our-partner {
+  background-color: #f8f9fa;
+}
+
+.partner-logo {
+  max-height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}

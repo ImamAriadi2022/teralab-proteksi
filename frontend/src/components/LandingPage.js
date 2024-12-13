@@ -1,8 +1,16 @@
 // src/components/LandingPage.jsx
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+
+  const handleToLogin = () => {
+    navigate("/login");
+  }
+
+
   return (
     <section className="landing_page">
       <Container>
@@ -21,6 +29,7 @@ const LandingPage = () => {
                     href="#mulai-belajar"
                     style={{ backgroundColor: "#605EA1" }}
                     className="text-white p-3"
+                    onClick={handleToLogin}
                   >
                     Mulai Belajar
                   </Button>

@@ -1,25 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
-import CategorySection from './components/CategorySection';
-import Mentor from './components/Mentor';
-import Testimonial from './components/Testimonial';
-import Footer from './components/Footer';
-import FloatingActionButton from "./components/FloatingActionButton";
+import AppPage from './page/LandingPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './page/Login'
+import About from './page/About'
 
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <LandingPage />
-      <CategorySection />
-      <Mentor />
-      <Testimonial />
-      <Footer />
-      <FloatingActionButton />
-    </>
+    <Router>
+    <Routes>
+      <Route path="/" element={<AppPage />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+  </Router>
   );
 };
 

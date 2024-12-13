@@ -1,0 +1,9 @@
+.support-section {
+  background-color: #f8f9fa;
+}
+
+.support-logo {
+  max-height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}

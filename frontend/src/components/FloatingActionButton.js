@@ -10,10 +10,7 @@ const FloatingActionButton = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Navigasi ke halaman Help
-  const navigateToHelp = () => {
-    window.location.href = "/help";
-  };
+
 
   // Buka chatbot dan ambil data dari API
   const openChatbot = async () => {
@@ -44,9 +41,6 @@ const FloatingActionButton = () => {
       {/* Menu Options */}
       {isMenuOpen && (
         <div className="fab-options">
-          <button className="fab-option" onClick={navigateToHelp}>
-            Help
-          </button>
         <Chatbot />
         </div>
       )}
