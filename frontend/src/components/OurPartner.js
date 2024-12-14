@@ -3,12 +3,8 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import '../assets/css/OurPartner.css';
 
 const partners = [
-  { name: 'Partner 1', logo: 'partner1.png' },
-  { name: 'Partner 2', logo: 'partner2.png' },
-  { name: 'Partner 3', logo: 'partner3.png' },
-  { name: 'Partner 4', logo: 'partner4.png' },
-  { name: 'Partner 5', logo: 'partner5.png' },
-  { name: 'Partner 6', logo: 'partner6.png' },
+  { name: 'Teknik Informatika', logo: 'partner/ti.png' },
+  { name: 'Goshi', logo: 'partner/goshi.png' },
   // Tambahkan logo mitra lainnya jika diperlukan
 ];
 
@@ -30,7 +26,7 @@ const OurPartner = () => {
                 {chunk.map((partner, idx) => (
                   <Col key={idx} md={3} className="d-flex align-items-center justify-content-center">
                     <img
-                      src={`img/${partner.logo}`}
+                      src={`${partner.logo}`}
                       alt={partner.name}
                       className="img-fluid partner-logo"
                     />

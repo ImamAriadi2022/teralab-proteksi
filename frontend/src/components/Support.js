@@ -3,12 +3,12 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import '../assets/css/Support.css';
 
 const supports = [
-  { name: 'Support 1', logo: 'support1.png' },
-  { name: 'Support 2', logo: 'support2.png' },
-  { name: 'Support 3', logo: 'support3.png' },
-  { name: 'Support 4', logo: 'support4.png' },
-  { name: 'Support 5', logo: 'support5.png' },
-  { name: 'Support 6', logo: 'support6.png' },
+  { name: 'GiNK TECHNOLOGY', logo: 'Gink.png' },
+  { name: 'WMK', logo: 'Proteksi.png' },
+  { name: 'Support 3', logo: 'Merdeka.png' },
+  { name: 'Support 4', logo: 'WMK.png' },
+  { name: 'Support 5', logo: 'kemdikbud.png' },
+  { name: 'Support 6', logo: 'unila.png' },
   // Tambahkan logo support lainnya jika diperlukan
 ];
 
@@ -30,7 +30,7 @@ const Support = () => {
                 {chunk.map((support, idx) => (
                   <Col key={idx} md={3} className="d-flex align-items-center justify-content-center">
                     <img
-                      src={`img/${support.logo}`}
+                      src={`partner/${support.logo}`}
                       alt={support.name}
                       className="img-fluid support-logo"
                     />
