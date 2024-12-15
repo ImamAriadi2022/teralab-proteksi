@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Tab, Nav, Form, Button, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Alert, Tab, Nav } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import '../assets/css/Login.css';
 
 const Login = () => {
-  const [key, setKey] = useState('signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [feedback, setFeedback] = useState('');
-  const [feedbackVariant, setFeedbackVariant] = useState('danger'); // New state for feedback variant
+  const [feedbackVariant, setFeedbackVariant] = useState('danger');
   const navigate = useNavigate();
 
   const handleBackToLandingPage = () => {
@@ -18,23 +16,31 @@ const Login = () => {
 
   const handleSignIn = (e) => {
     e.preventDefault();
-    if (email === 'admin' && password === 'admin123') {
-      navigate('/admin-dashboard');
-    } else if (email === 'user' && password === 'user123') {
-      navigate('/user-dashboard');
-    } else if (email === 'mentor' && password === 'mentor123') {
-      navigate('/mentor-dashboard');
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    const user = users.find((user) => user.email === email && user.password === password);
+
+    if (user) {
+      if (user.role === 'admin') {
+        navigate('/admin-dashboard');
+      } else if (user.role === 'user') {
+        navigate('/user-dashboard');
+      } else if (user.role === 'mentor') {
+        navigate('/mentor-dashboard');
+      }
     } else {
       setFeedback('Invalid credentials. Please try again.');
-      setFeedbackVariant('danger'); // Set feedback variant to danger
+      setFeedbackVariant('danger');
     }
   };
 
   const handleSignUp = (e) => {
     e.preventDefault();
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    const newUser = { name, email, password, role: 'user' };
+    users.push(newUser);
+    localStorage.setItem('users', JSON.stringify(users));
     setFeedback('Sign up successful! Please sign in.');
-    setFeedbackVariant('success'); // Set feedback variant to success
-    setKey('signin');
+    setFeedbackVariant('success');
   };
 
   return (
@@ -43,7 +49,7 @@ const Login = () => {
         <Row className="justify-content-md-center">
           <Col md={6}>
             <h2 className="text-center mb-4">Selamat datang di TeraLab</h2>
-            <Tab.Container activeKey={key} onSelect={(k) => setKey(k)}>
+            <Tab.Container defaultActiveKey="signin">
               <Nav variant="pills" className="justify-content-center mb-3">
                 <Nav.Item>
                   <Nav.Link eventKey="signin">Sign In</Nav.Link>
@@ -59,7 +65,7 @@ const Login = () => {
                     <Form.Group controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
                       <Form.Control
-                        type="text"
+                        type="email"
                         placeholder="Enter email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
