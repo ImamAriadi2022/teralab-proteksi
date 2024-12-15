@@ -13,23 +13,23 @@ const FloatingActionButton = () => {
 
 
   // Buka chatbot dan ambil data dari API
-  const openChatbot = async () => {
-    try {
-      const response = await fetch("https://api.example.com/chatbot", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          message: "Hello",
-        }),
-      });
-      const data = await response.json();
-      alert(`AI Response: ${data.reply}`);
-    } catch (error) {
-      console.error("Error fetching chatbot API:", error);
-    }
-  };
+  // const openChatbot = async () => {
+  //   try {
+  //     const response = await fetch("https://api.example.com/chatbot", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify({
+  //         message: "Hello",
+  //       }),
+  //     });
+  //     const data = await response.json();
+  //     alert(`AI Response: ${data.reply}`);
+  //   } catch (error) {
+  //     console.error("Error fetching chatbot API:", error);
+  //   }
+  // };
 
   return (
     <div className="fab-container">
