@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Col, Container, Form, Modal, Row, Table } from 'react-bootstrap';
 import AdminNavbar from '../components/AdminNavbar';
+import Footer from '../components/Footer';
 
 const AdminMerchandise = () => {
   const [products, setProducts] = useState([]);
@@ -134,6 +135,7 @@ const AdminMerchandise = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+      <Footer />
     </>
   );
 };

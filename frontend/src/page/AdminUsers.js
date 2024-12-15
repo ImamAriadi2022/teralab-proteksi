@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
 import AdminNavbar from '../components/AdminNavbar';
+import Footer from '../components/Footer'
 
 const AdminUsers = () => {
   const [users, setUsers] = useState([]);
@@ -42,6 +43,7 @@ const AdminUsers = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 };
