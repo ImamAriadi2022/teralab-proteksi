@@ -1,14 +1,40 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Tab, Nav, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col, Tab, Nav, Form, Button, Alert } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import '../assets/css/Login.css';
 
 const Login = () => {
   const [key, setKey] = useState('signin');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [name, setName] = useState('');
+  const [feedback, setFeedback] = useState('');
+  const [feedbackVariant, setFeedbackVariant] = useState('danger'); // New state for feedback variant
   const navigate = useNavigate();
 
   const handleBackToLandingPage = () => {
     navigate('/');
+  };
+
+  const handleSignIn = (e) => {
+    e.preventDefault();
+    if (email === 'admin' && password === 'admin123') {
+      navigate('/admin-dashboard');
+    } else if (email === 'user' && password === 'user123') {
+      navigate('/user-dashboard');
+    } else if (email === 'mentor' && password === 'mentor123') {
+      navigate('/mentor-dashboard');
+    } else {
+      setFeedback('Invalid credentials. Please try again.');
+      setFeedbackVariant('danger'); // Set feedback variant to danger
+    }
+  };
+
+  const handleSignUp = (e) => {
+    e.preventDefault();
+    setFeedback('Sign up successful! Please sign in.');
+    setFeedbackVariant('success'); // Set feedback variant to success
+    setKey('signin');
   };
 
   return (
@@ -28,14 +54,25 @@ const Login = () => {
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="signin">
-                  <Form>
+                  {feedback && <Alert variant={feedbackVariant}>{feedback}</Alert>}
+                  <Form onSubmit={handleSignIn}>
                     <Form.Group controlId="formBasicEmail">
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
+                      <Form.Control
+                        type="text"
+                        placeholder="Enter email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
                     </Form.Group>
                     <Form.Group controlId="formBasicPassword" className="mt-3">
                       <Form.Label>Password</Form.Label>
-                      <Form.Control type="password" placeholder="Password" />
+                      <Form.Control
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                      />
                     </Form.Group>
                     <Button variant="primary" type="submit" className="mt-3">
                       Sign In
@@ -43,18 +80,34 @@ const Login = () => {
                   </Form>
                 </Tab.Pane>
                 <Tab.Pane eventKey="signup">
-                  <Form>
+                  {feedback && <Alert variant={feedbackVariant}>{feedback}</Alert>}
+                  <Form onSubmit={handleSignUp}>
                     <Form.Group controlId="formBasicName">
                       <Form.Label>Name</Form.Label>
-                      <Form.Control type="text" placeholder="Enter name" />
+                      <Form.Control
+                        type="text"
+                        placeholder="Enter name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                      />
                     </Form.Group>
                     <Form.Group controlId="formBasicEmail" className="mt-3">
                       <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
+                      <Form.Control
+                        type="email"
+                        placeholder="Enter email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
                     </Form.Group>
                     <Form.Group controlId="formBasicPassword" className="mt-3">
                       <Form.Label>Password</Form.Label>
-                      <Form.Control type="password" placeholder="Password" />
+                      <Form.Control
+                        type="password"
+                        placeholder="Password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                      />
                     </Form.Group>
                     <Button variant="primary" type="submit" className="mt-3">
                       Sign Up
