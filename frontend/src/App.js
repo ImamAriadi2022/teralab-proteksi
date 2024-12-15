@@ -14,6 +14,7 @@ import AdminWebinars from './page/AdminWebinars';
 import AdminClasses from './page/AdminClasses';
 import AdminMerchandise from './page/AdminMerchandise';
 import AdminVerifyMentors from './page/AdminVerifyMentors';
+import About from './page/About';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-webinars" element={<MyWebinars />} />
         <Route path="/all-webinars" element={<AllWebinars />} />

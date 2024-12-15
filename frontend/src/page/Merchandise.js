@@ -10,9 +10,9 @@ const Merchandise = () => {
   useEffect(() => {
     // Fetch all products (replace with actual API call)
     const allProducts = [
-      { id: 1, name: 'Produk 1', stock: 10, price: 50000, description: 'Deskripsi singkat produk 1', thumbnail: 'https://via.placeholder.com/150' },
-      { id: 2, name: 'Produk 2', stock: 5, price: 75000, description: 'Deskripsi singkat produk 2', thumbnail: 'https://via.placeholder.com/150' },
-      { id: 3, name: 'Produk 3', stock: 20, price: 100000, description: 'Deskripsi singkat produk 3', thumbnail: 'https://via.placeholder.com/150' },
+      { id: 1, name: 'T-Shirt', stock: 10, price: 10000, description: 'Deskripsi singkat produk 1', thumbnail: 'https://via.placeholder.com/150' },
+      { id: 2, name: 'Gantungan Kunci', stock: 5, price: 5000, description: 'Deskripsi singkat produk 2', thumbnail: 'https://via.placeholder.com/150' },
+      { id: 3, name: 'Stiker', stock: 20, price: 3000, description: 'Deskripsi singkat produk 3', thumbnail: 'https://via.placeholder.com/150' },
     ];
     setProducts(allProducts);
   }, []);
