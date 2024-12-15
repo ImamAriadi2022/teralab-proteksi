@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LandingPage from './page/LandingPage';
 import Login from './page/Login';
 import UserDashboard from './page/UserDashboard';
 import MyWebinars from './page/MyWebinars';
@@ -18,7 +19,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/user-dashboard" element={<UserDashboard />} />
         <Route path="/user-webinars" element={<MyWebinars />} />
         <Route path="/all-webinars" element={<AllWebinars />} />
