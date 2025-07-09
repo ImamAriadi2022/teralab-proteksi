@@ -178,6 +178,166 @@ const nlpDataset = [
       "Metode pembelajaran kami berfokus pada hands-on project dan mastery learning. Kurikulum dirancang bersama praktisi industri dan diperbaharui secara berkala. Ada opsi kelas reguler dan bootcamp intensif.",
       "TeraLab mengadopsi metode project-based learning dengan dukungan mentor berpengalaman. Setiap minggu ada sesi live coding, group discussion, dan 1-on-1 mentoring. Format belajar bisa full-time atau part-time."
     ]
+  },
+  {
+    keywords: ["daftar", "mendaftar", "registrasi", "register", "join", "bergabung", "ikut", "signup", "sign up"],
+    responses: [
+      "Untuk mendaftar di TeraLab, silakan kunjungi website kami di teralab.id/daftar dan isi formulir pendaftaran. Anda perlu menyiapkan: 1) Data diri lengkap, 2) Alamat email aktif, dan 3) Nomor telepon. Setelah mengisi formulir, tim kami akan menghubungi Anda dalam 1x24 jam untuk langkah selanjutnya.",
+      "Pendaftaran di TeraLab sangat mudah! Cukup akses teralab.id/daftar, isi formulir dengan data diri Anda, pilih program yang diminati, dan klik 'Daftar'. Tim kami akan segera menghubungi Anda untuk konsultasi gratis dan penjelasan detail program.",
+      "Cara mendaftar di TeraLab: 1) Kunjungi teralab.id/daftar, 2) Isi formulir pendaftaran dengan lengkap, 3) Pilih kursus yang Anda minati, 4) Klik tombol 'Daftar Sekarang', 5) Tunggu konfirmasi via email dalam 24 jam. Jika ada pertanyaan, silakan hubungi CS kami di 0812-3456-7890."
+    ]
+  },
+  {
+    keywords: ["tentang", "about", "profil", "profile", "teralab", "sejarah", "history", "latar belakang"],
+    responses: [
+      "TeraLab adalah platform edukasi teknologi yang didirikan tahun 2021 dengan misi memberikan pendidikan teknologi berkualitas tinggi dan terjangkau. Kami fokus pada pembelajaran berbasis proyek dan mentoring oleh praktisi industri, dengan spesialisasi di bidang pemrograman, data science, AI, dan desain digital.",
+      "TeraLab merupakan platform edukasi teknologi yang bekerja sama dengan profesional industri untuk memberikan pembelajaran berbasis praktik. Berdiri sejak 2021, kami telah meluluskan lebih dari 5.000 siswa yang kini berkarir di berbagai perusahaan teknologi terkemuka di Indonesia dan global.",
+      "TeraLab adalah institusi pendidikan teknologi yang didirikan oleh sekelompok praktisi IT berpengalaman. Kami berkomitmen menyediakan kurikulum up-to-date yang sesuai kebutuhan industri, dengan fokus pada pengalaman belajar hands-on dan pendampingan oleh mentor berpengalaman."
+    ]
+  },
+  {
+    keywords: ["visi", "misi", "vision", "mission", "tujuan", "goal", "purpose"],
+    responses: [
+      "Visi TeraLab adalah menjadi platform edukasi teknologi terkemuka di Asia Tenggara. Misi kami adalah menyediakan pendidikan teknologi berkualitas, terjangkau, dan relevan dengan kebutuhan industri, serta mempersiapkan talenta digital untuk masa depan.",
+      "TeraLab memiliki visi untuk membantu 1 juta talenta digital Indonesia pada tahun 2030. Misi kami adalah menyediakan pendidikan teknologi yang berkualitas dan terjangkau melalui kurikulum komprehensif, instruktur berpengalaman, dan lingkungan belajar supportif.",
+      "Visi kami adalah menciptakan ekosistem pembelajaran teknologi yang inklusif dan inovatif. Misi TeraLab adalah mempersiapkan talenta-talenta Indonesia agar siap bersaing di era digital global melalui pendidikan teknologi berkualitas tinggi dan networking dengan industri."
+    ]
+  },
+  {
+    keywords: ["syarat", "requirement", "persyaratan", "kriteria", "requirement"],
+    responses: [
+      "Persyaratan umum untuk mengikuti kursus di TeraLab: 1) Usia minimal 17 tahun, 2) Memiliki laptop dengan spesifikasi minimal Core i3/Ryzen 3, RAM 8GB, 3) Koneksi internet stabil, dan 4) Komitmen untuk mengikuti kelas. Untuk kursus tertentu mungkin ada persyaratan tambahan, seperti pengetahuan dasar pemrograman.",
+      "Untuk bergabung dengan TeraLab, Anda memerlukan: 1) Komputer/laptop yang memadai (min. Core i3/Ryzen 3, RAM 8GB), 2) Koneksi internet stabil, 3) Komitmen waktu 10-20 jam/minggu, dan 4) Motivasi belajar yang tinggi. Beberapa kursus advanced memiliki prasyarat pengetahuan dasar tertentu.",
+      "Syarat mengikuti program TeraLab cukup sederhana: Anda memerlukan laptop dengan spesifikasi memadai, koneksi internet yang stabil, dan komitmen untuk belajar sesuai jadwal program. Tidak ada persyaratan pendidikan formal tertentu, namun untuk beberapa kursus advanced diperlukan pengetahuan dasar terkait."
+    ]
+  },
+  {
+    keywords: ["proses", "alur", "tahapan", "step", "langkah", "cara", "how to", "workflow"],
+    responses: [
+      "Proses belajar di TeraLab: 1) Pendaftaran dan konsultasi awal, 2) Pembayaran biaya program, 3) Orientasi dan perkenalan, 4) Akses ke materi pembelajaran, 5) Kelas live dan mentoring rutin, 6) Pengerjaan project, 7) Final project dan presentasi, 8) Sertifikasi dan career support. Alur ini dirancang untuk memaksimalkan pengalaman belajar Anda.",
+      "Tahapan pembelajaran di TeraLab: Dimulai dari orientasi program, kemudian pembahasan materi fundamental, implementasi dalam mini-project, pendalaman materi advanced, pengerjaan capstone project, dan diakhiri dengan sertifikasi. Sepanjang program, Anda akan didampingi mentor berpengalaman.",
+      "Alur belajar di TeraLab dirancang sistematis: 1) Onboarding dan perkenalan, 2) Pembelajaran fundamental, 3) Praktik dan project kecil, 4) Materi lanjutan, 5) Kolaborasi dalam team project, 6) Capstone project, 7) Career preparation, dan 8) Graduation. Di setiap tahap, Anda mendapat bimbingan dari mentor profesional."
+    ]
+  },
+  {
+    keywords: ["fasilitas", "facility", "dapat apa", "benefit", "manfaat", "keuntungan", "advantage"],
+    responses: [
+      "Fasilitas yang Anda dapatkan di TeraLab: 1) Akses lifetime ke materi pembelajaran, 2) Live class dengan instruktur profesional, 3) Sesi mentoring 1-on-1, 4) Project-based learning, 5) Sertifikat industri, 6) Jaringan alumni, 7) Career coaching, dan 8) Kesempatan magang di perusahaan partner kami.",
+      "Manfaat mengikuti program TeraLab: Akses ke materi berkualitas tinggi, mentoring oleh praktisi industri, pengalaman project nyata untuk portofolio, networking dengan profesional dan alumni, sertifikasi industri, serta dukungan karir setelah lulus. Semua ini dirancang untuk memastikan kesuksesan karir Anda.",
+      "Di TeraLab, Anda akan mendapatkan: Pembelajaran dari instruktur berpengalaman, kurikulum up-to-date sesuai kebutuhan industri, praktik hands-on, project portofolio, sertifikasi, jaringan alumni yang luas, dan career support. Plus, akses seumur hidup ke materi pembelajaran dan update-nya."
+    ]
+  },
+  {
+    keywords: ["metode bayar", "pembayaran", "payment", "cicil", "angsuran", "installment", "transfer", "kartu kredit", "credit card"],
+    responses: [
+      "TeraLab menawarkan beberapa metode pembayaran: 1) Transfer bank, 2) Kartu kredit/debit, 3) Virtual account, 4) E-wallet (OVO, GoPay, DANA), 5) Cicilan 0% hingga 12 bulan dengan kartu kredit tertentu. Kami juga menyediakan opsi cicilan tanpa kartu kredit melalui Kredivo dan Indodana.",
+      "Opsi pembayaran di TeraLab sangat fleksibel. Anda dapat membayar secara penuh di awal melalui transfer bank, kartu kredit/debit, atau e-wallet. Tersedia juga opsi cicilan 3, 6, atau 12 bulan melalui kartu kredit atau layanan cicilan tanpa kartu kredit dengan proses approval cepat.",
+      "Untuk memudahkan Anda, TeraLab menerima pembayaran melalui: transfer bank, virtual account, kartu kredit (cicilan 0% hingga 12 bulan), dan e-wallet. Kami juga bermitra dengan Kredivo dan Akulaku untuk opsi cicilan tanpa kartu kredit dengan proses yang mudah."
+    ]
+  },
+  {
+    keywords: ["diskon", "discount", "potongan", "promo", "voucher", "kupon", "coupon", "beasiswa", "scholarship"],
+    responses: [
+      "TeraLab sering mengadakan promo dan diskon di periode-periode tertentu seperti awal tahun, hari kemerdekaan, dan akhir tahun. Kami juga memiliki program beasiswa untuk pelajar/mahasiswa berprestasi dan profesional dengan kondisi ekonomi tertentu. Pantau sosial media kami untuk info promo terbaru.",
+      "Kami di TeraLab menawarkan berbagai program diskon: Early bird (20% off) untuk pendaftar awal, diskon group (15% untuk 3+ orang), program referral (10% untuk yang mereferensikan dan yang direferensikan), dan beasiswa penuh untuk kandidat berprestasi. Hubungi tim kami untuk informasi terkini.",
+      "TeraLab memiliki beberapa program diskon dan beasiswa: 1) Diskon early bird, 2) Diskon grup, 3) Program referal, 4) Beasiswa prestasi, dan 5) Beasiswa inklusi digital. Promo spesial juga diadakan pada momen tertentu seperti ulang tahun TeraLab dan event nasional. Silakan tanyakan pada tim CS kami."
+    ]
+  },
+  {
+    keywords: ["alumni", "lulusan", "graduate", "setelah lulus", "after graduation", "success story", "testimoni"],
+    responses: [
+      "Alumni TeraLab tersebar di berbagai perusahaan teknologi ternama seperti Gojek, Tokopedia, Traveloka, Bukalapak, dan startup-startup potensial. Banyak juga yang berkarir di perusahaan multinasional atau membangun startup mereka sendiri. Success rate penempatan kerja alumni kami mencapai 90% dalam 3 bulan setelah kelulusan.",
+      "Alumni TeraLab memiliki track record karir yang mengesankan. Mereka bekerja di perusahaan seperti Gojek, Tokopedia, Dana, LinkAja, Shopee, dan perusahaan teknologi lainnya. Beberapa alumni juga sukses mendirikan startup sendiri dan mendapatkan pendanaan. Network alumni kami sangat kuat dan saling mendukung.",
+      "Lulusan TeraLab telah membuktikan kualitasnya di dunia kerja. Mereka menduduki berbagai posisi dari junior hingga senior di perusahaan teknologi terkemuka. Beberapa alumni mendapatkan kenaikan gaji hingga 50-200% setelah lulus. Kami memiliki jaringan alumni aktif yang rutin mengadakan gathering dan knowledge sharing."
+    ]
+  },
+  {
+    keywords: ["kontak", "contact", "hubungi", "tanya", "tanyakan", "email", "telp", "telepon", "whatsapp", "wa", "sosmed", "social media"],
+    responses: [
+      "Anda dapat menghubungi TeraLab melalui: Email: info@teralab.id, WhatsApp: 0812-3456-7890, Telepon: 021-12345678, Instagram/Twitter: @teralab.id, atau melalui form kontak di website kami teralab.id/contact. Tim customer service kami siap melayani setiap hari (Senin-Minggu) dari jam 08.00-20.00 WIB.",
+      "Untuk informasi lebih lanjut, silakan hubungi kami melalui: WhatsApp Business: 0812-3456-7890, Email: halo@teralab.id, atau sosial media kami di Instagram, Twitter, dan LinkedIn (@teralab.id). Anda juga bisa mengunjungi kantor kami di Jakarta, Bandung, atau Surabaya (appointment required).",
+      "Tim TeraLab siap menjawab pertanyaan Anda melalui berbagai channel: WhatsApp (0812-3456-7890), Email (support@teralab.id), Live Chat di website kami (teralab.id), dan sosial media (Instagram/Facebook/LinkedIn: @teralab.id). Jam operasional customer service kami adalah 08.00-20.00 WIB setiap hari."
+    ]
+  },
+  {
+    keywords: ["keunggulan", "advantage", "kelebihan", "excellence", "superior", "unggul", "benefit", "why", "kenapa", "mengapa"],
+    responses: [
+      "Keunggulan TeraLab dibandingkan platform lain: 1) Kurikulum yang didesain bersama praktisi industri dan selalu up-to-date, 2) Instruktur berpengalaman dari perusahaan teknologi terkemuka, 3) Rasio mentor:siswa 1:5 untuk pembelajaran optimal, 4) Fokus pada project-based learning, dan 5) Program career support yang komprehensif.",
+      "TeraLab memiliki beberapa keunggulan: kurikulum yang selalu diperbarui mengikuti tren industri, instruktur yang merupakan praktisi aktif, pendekatan pembelajaran berbasis proyek nyata, kelompok belajar kecil untuk pendampingan intensif, dan jaringan industri yang kuat untuk penempatan kerja alumni.",
+      "Mengapa memilih TeraLab? Karena kami menawarkan: 1) Pembelajaran hands-on dengan kasus nyata, 2) Mentor dari perusahaan teknologi terkemuka, 3) Jaringan alumni dan industri yang kuat, 4) Kurikulum yang selalu updated, 5) Support karir yang komprehensif, dan 6) Biaya yang kompetitif dengan opsi pembayaran fleksibel."
+    ]
+  },
+  {
+    keywords: ["kurikulum", "curriculum", "silabus", "syllabus", "materi", "material", "konten", "content"],
+    responses: [
+      "Kurikulum di TeraLab dirancang bersama praktisi industri dan diperbarui setiap 3-6 bulan sesuai perkembangan teknologi terkini. Kami menggunakan pendekatan 'learn by doing' dengan 30% teori dan 70% praktik. Setiap program diakhiri dengan capstone project yang dapat menjadi portofolio Anda.",
+      "Silabus TeraLab dikembangkan dengan prinsip Industry-Aligned Learning. Konten pembelajaran mencakup fundamental theory, best practices, hands-on labs, mini projects, dan capstone project. Semua materi dirancang berdasarkan kebutuhan nyata industri dan tren teknologi terkini.",
+      "Materi pembelajaran di TeraLab terdiri dari video lessons, e-books, interactive labs, live sessions, dan project-based assignments. Kurikulum kami dirancang komprehensif dari basic hingga advanced dan selalu diperbarui setiap 6 bulan untuk memastikan relevansi dengan kebutuhan industri."
+    ]
+  },
+  {
+    keywords: ["online", "offline", "hybrid", "daring", "luring", "remote", "jarak jauh", "tatap muka"],
+    responses: [
+      "TeraLab menawarkan tiga mode pembelajaran: Online (100% remote learning), Offline (di kampus TeraLab di Jakarta, Bandung, Surabaya), dan Hybrid (kombinasi keduanya). Mode Online menyediakan akses ke semua materi dan mentoring via video conference. Untuk program hybrid, pertemuan offline biasanya dilakukan setiap 2 minggu sekali.",
+      "Di TeraLab, Anda dapat memilih metode belajar sesuai preferensi: Full Online (fleksibel, bisa diakses dari mana saja), Full Offline (di kampus TeraLab dengan interaksi langsung), atau Hybrid (kombinasi online dan offline). Semua metode menyediakan akses ke materi yang sama dan kualitas mentoring yang setara.",
+      "TeraLab menyediakan opsi belajar online, offline, dan hybrid. Program online bisa diakses dari mana saja dengan jadwal fleksibel. Program offline memberikan pengalaman interaksi langsung di kampus TeraLab. Program hybrid menggabungkan kedua manfaat tersebut. Semua program mendapatkan sertifikat dan career support yang sama."
+    ]
+  },
+  {
+    keywords: ["partner", "partnership", "perusahaan", "company", "industry", "kerjasama", "mitra", "kolaborasi", "collaboration"],
+    responses: [
+      "TeraLab bermitra dengan lebih dari 50 perusahaan teknologi seperti Google, Microsoft, Gojek, Tokopedia, dan Traveloka. Kemitraan ini mencakup pengembangan kurikulum, guest lectures, company visit, proyek kolaboratif, dan recruitment. Alumni TeraLab mendapat akses prioritas untuk rekrutmen di perusahaan-perusahaan partner.",
+      "Mitra industri TeraLab mencakup perusahaan teknologi nasional dan multinasional seperti Google, AWS, Microsoft, Gojek, Tokopedia, dan banyak lainnya. Kerjasama ini memungkinkan siswa mengerjakan proyek nyata, mendapatkan mentoring dari praktisi industri, dan mendapat prioritas pada kesempatan kerja di perusahaan-perusahaan tersebut.",
+      "TeraLab berkolaborasi dengan berbagai perusahaan teknologi terkemuka untuk memastikan kurikulum selalu relevan dan membuka peluang karir bagi alumni. Partner kami termasuk Google, Tokopedia, Gojek, Traveloka, dan puluhan perusahaan teknologi lainnya yang berkontribusi dalam bentuk mentoring, workshop, dan recruitment program."
+    ]
+  },
+  {
+    keywords: ["review", "ulasan", "rating", "testimonial", "feedback", "pendapat", "opinion", "komentar", "comment"],
+    responses: [
+      "TeraLab mendapat rating 4.8/5 dari lebih dari 1000+ reviews di Google dan platform edukasi. Alumni memuji kualitas kurikulum, kompetensi instruktur, dan efektivitas program career support kami. Beberapa testimonial menyebutkan peningkatan karir signifikan setelah lulus dari program kami.",
+      "Ulasan dari alumni TeraLab sangat positif dengan rating rata-rata 4.8/5. Banyak yang menekankan kualitas pembelajaran praktis, mentor yang kompeten, dan networking yang berharga. Lebih dari 90% alumni menyatakan program TeraLab memberikan return on investment yang signifikan untuk karir mereka.",
+      "Feedback dari peserta TeraLab konsisten menekankan kualitas kurikulum yang up-to-date, instruktur yang berpengalaman, dan pembelajaran berbasis proyek yang sangat bernilai. Banyak alumni melaporkan kenaikan gaji signifikan atau peningkatan karir dalam 6 bulan setelah menyelesaikan program kami."
+    ]
+  },
+  {
+    keywords: ["akreditasi", "accreditation", "sertifikasi", "certification", "diakui", "recognized", "legal"],
+    responses: [
+      "TeraLab adalah lembaga pendidikan non-formal yang terdaftar di Kementerian Pendidikan dan Kebudayaan Indonesia. Sertifikat kami diakui oleh industri dan banyak perusahaan partner. Beberapa program kami juga memiliki sertifikasi internasional seperti CompTIA, AWS, Google, dan Microsoft.",
+      "TeraLab telah mendapatkan akreditasi dari Kementerian Pendidikan dan Kebudayaan sebagai lembaga kursus profesional. Selain itu, kurikulum kami disusun sesuai standar industri dan beberapa program menawarkan sertifikasi internasional dari badan-badan seperti AWS, Google, dan Microsoft.",
+      "Program-program di TeraLab telah terakreditasi oleh Direktorat Jenderal Pendidikan Vokasi Kemendikbudristek. Kami juga bermitra dengan lembaga sertifikasi internasional untuk menawarkan sertifikasi tambahan yang diakui secara global dalam beberapa program kami."
+    ]
+  },
+  {
+    keywords: ["layanan", "service", "feature", "fitur", "program", "course", "product", "produk"],
+    responses: [
+      "TeraLab menyediakan beragam program pembelajaran: 1) Bootcamp intensif (2-5 bulan), 2) Kursus reguler (part-time, 3-6 bulan), 3) Workshop singkat (2-5 hari), 4) Corporate training untuk perusahaan, 5) Webinar gratis, dan 6) Program beasiswa. Setiap program dirancang untuk memenuhi kebutuhan belajar yang berbeda-beda.",
+      "Layanan yang tersedia di TeraLab meliputi: 1) Program bootcamp full-time untuk career switcher, 2) Kursus part-time untuk professional, 3) Micro-learning untuk skill tertentu, 4) Executive programs untuk leader, 5) Corporate training, 6) Career counseling, dan 7) Hiring events. Semua program didukung oleh platform belajar online kami yang komprehensif.",
+      "TeraLab menawarkan berbagai produk edukasi: mulai dari bootcamp intensif, kursus reguler, workshop spesialis, hingga seri webinar. Kami juga memiliki layanan konsultasi karir, job placement assistance, dan program corporate training untuk perusahaan yang ingin meningkatkan kemampuan digital karyawannya."
+    ]
+  },
+  {
+    keywords: ["update", "pembaruan", "terbaru", "latest", "new", "baru"],
+    responses: [
+      "TeraLab terus melakukan pembaruan pada kurikulum dan program kami. Update terbaru termasuk: 1) Penambahan track AI dan Machine Learning, 2) Program Web3 dan Blockchain Development, 3) Kemitraan baru dengan Google dan AWS, dan 4) Platform pembelajaran yang telah diperbarui dengan fitur interaktif. Kunjungi website kami untuk informasi lengkap.",
+      "Update terbaru dari TeraLab: 1) Peluncuran program Data Engineering & MLOps, 2) Pembaruan kurikulum UI/UX dengan fokus pada design system, 3) Penambahan 10+ perusahaan partner untuk placement, dan 4) Program mentorship khusus untuk alumni. Semua informasi terbaru dapat dilihat di website dan sosial media kami.",
+      "TeraLab baru saja meluncurkan beberapa program baru: 1) AI & Machine Learning Professional Track, 2) DevOps Engineering, 3) Cloud Solutions Architecture, dan 4) Cybersecurity Specialist. Kami juga memperluas jangkauan dengan membuka campus baru di Surabaya dan menambah opsi pembelajaran hybrid."
+    ]
+  },
+  {
+    keywords: ["faq", "frequently asked", "pertanyaan umum", "tanya jawab"],
+    responses: [
+      "Pertanyaan yang sering ditanyakan tentang TeraLab: 1) 'Apakah ada prasyarat untuk mengikuti kursus?' - Tergantung program, beberapa memerlukan pengetahuan dasar, 2) 'Berapa lama durasi program?' - Mulai dari 1 minggu hingga 6 bulan, 3) 'Apakah ada jaminan kerja?' - Kami menyediakan career support komprehensif dengan success rate 90%. Untuk FAQ lengkap, silakan kunjungi teralab.id/faq.",
+      "FAQ di TeraLab: 1) Prasyarat program - beberapa program memerlukan basic knowledge, namun tersedia juga program untuk pemula, 2) Jaminan pekerjaan - kami menyediakan career support namun tidak menjamin penempatan, 3) Pembatalan program - refund 100% jika dibatalkan 7 hari sebelum program dimulai. Lihat FAQ lengkap di website kami.",
+      "Pertanyaan yang sering diajukan: 1) 'Apakah saya bisa ikut kursus sambil bekerja?' - Ya, tersedia program part-time dan weekend, 2) 'Apakah program online sama efektifnya dengan offline?' - Ya, materi dan mentor sama, dengan tingkat keberhasilan setara, 3) 'Bagaimana jika saya tertinggal?' - Tersedia sesi catch-up dan rekaman kelas. Lihat FAQ lainnya di teralab.id/faq."
+    ]
+  },
+  {
+    keywords: ["community", "komunitas", "network", "jaringan", "forum", "grup", "group"],
+    responses: [
+      "TeraLab memiliki komunitas alumni dan siswa yang aktif dengan lebih dari 5.000 anggota. Komunitas ini berbagi pengetahuan, networking, dan info lowongan kerja melalui forum online, grup Telegram/WhatsApp, dan meet-up reguler. Sebagai siswa TeraLab, Anda otomatis bergabung dengan komunitas ini dan mendapat akses ke resources eksklusif.",
+      "Komunitas TeraLab sangat aktif dengan berbagai kegiatan seperti webinar mingguan, tech talk, project collaboration, dan career event. Kami memiliki channel Slack khusus, grup Discord, dan pertemuan offline regular di berbagai kota. Komunitas ini menjadi salah satu nilai tambah besar bagi siswa dan alumni TeraLab.",
+      "Jaringan TeraLab terdiri dari siswa, alumni, mentor, dan profesional industri yang saling terhubung. Komunitas ini menjadi tempat berbagi pengetahuan, pengalaman, dan peluang karir. Kami mengadakan community event reguler seperti tech meetup, hackathon, dan career fair yang membuka peluang networking lebih luas."
+    ]
   }
 ];
 
@@ -231,7 +391,8 @@ const Chatbot = () => {
       mentionedTopics: [],
       currentTopic: null,
       sentiment: 'neutral',
-      lastQuestionType: null
+      lastQuestionType: null,
+      isAboutTeralab: false
     };
   });
 
@@ -252,7 +413,8 @@ const Chatbot = () => {
       mentionedTopics: [],
       currentTopic: null,
       sentiment: 'neutral',
-      lastQuestionType: null
+      lastQuestionType: null,
+      isAboutTeralab: false
     });
   };
 
@@ -300,26 +462,58 @@ const Chatbot = () => {
       dataScience: ['data', 'science', 'analytics', 'machine learning', 'statistik'],
       design: ['ui', 'ux', 'design', 'figma', 'desain'],
       pricing: ['biaya', 'harga', 'cost', 'uang', 'bayar'],
-      schedule: ['jadwal', 'durasi', 'waktu', 'schedule', 'kapan']
+      schedule: ['jadwal', 'durasi', 'waktu', 'schedule', 'kapan'],
+      // Topik tambahan khusus tentang TeraLab
+      registration: ['daftar', 'registrasi', 'mendaftar', 'bergabung', 'ikut', 'join', 'signup', 'sign up'],
+      about: ['tentang', 'about', 'teralab', 'profile', 'profil', 'sejarah', 'history'],
+      requirements: ['syarat', 'kriteria', 'persyaratan', 'requirement'],
+      process: ['proses', 'alur', 'tahapan', 'step', 'langkah', 'cara', 'how to'],
+      facilities: ['fasilitas', 'facility', 'dapat apa', 'benefit', 'manfaat', 'keuntungan'],
+      payment: ['bayar', 'pembayaran', 'payment', 'cicil', 'angsuran', 'transfer'],
+      alumni: ['alumni', 'lulusan', 'graduate', 'setelah lulus', 'success story'],
+      contact: ['kontak', 'hubungi', 'tanya', 'email', 'telepon', 'whatsapp', 'contact']
     };
     
     const processedInput = preprocessText(userInput);
     
     let detectedTopic = null;
+    let highestMatchCount = 0;
     
+    // Deteksi kata kunci TeraLab dalam input
+    const containsTeralab = processedInput.includes('teralab') || 
+                           processedInput.includes('tera lab') || 
+                           processedInput.includes('tera-lab');
+    
+    // Prioritaskan topik berdasarkan jumlah kata kunci yang cocok
     Object.entries(topics).forEach(([topic, keywords]) => {
+      let matchCount = 0;
+      
       keywords.forEach(keyword => {
         if (processedInput.includes(keyword)) {
-          detectedTopic = topic;
-          if (!newContext.mentionedTopics.includes(topic)) {
-            newContext.mentionedTopics.push(topic);
+          matchCount++;
+          // Beri bobot lebih jika ada kata "teralab" dalam input dan keyword
+          if (containsTeralab && (keyword.includes('teralab') || topic === 'about')) {
+            matchCount += 2;
           }
         }
       });
+      
+      if (matchCount > 0 && matchCount > highestMatchCount) {
+        highestMatchCount = matchCount;
+        detectedTopic = topic;
+        if (!newContext.mentionedTopics.includes(topic)) {
+          newContext.mentionedTopics.push(topic);
+        }
+      }
     });
     
     if (detectedTopic) {
       newContext.currentTopic = detectedTopic;
+    }
+    
+    // Deteksi pertanyaan spesifik tentang TeraLab
+    if (containsTeralab) {
+      newContext.isAboutTeralab = true;
     }
     
     // Deteksi tipe pertanyaan
@@ -328,7 +522,8 @@ const Chatbot = () => {
         processedInput.includes('what')) {
       newContext.lastQuestionType = 'what';
     } else if (processedInput.includes('bagaimana') || 
-               processedInput.includes('how')) {
+               processedInput.includes('how') ||
+               processedInput.includes('cara')) {
       newContext.lastQuestionType = 'how';
     } else if (processedInput.includes('kenapa') || 
                processedInput.includes('mengapa') || 
@@ -338,8 +533,13 @@ const Chatbot = () => {
                processedInput.includes('when')) {
       newContext.lastQuestionType = 'when';
     } else if (processedInput.includes('dimana') || 
-               processedInput.includes('where')) {
+               processedInput.includes('where') ||
+               processedInput.includes('lokasi') ||
+               processedInput.includes('location')) {
       newContext.lastQuestionType = 'where';
+    } else if (processedInput.includes('siapa') ||
+               processedInput.includes('who')) {
+      newContext.lastQuestionType = 'who';
     }
     
     setContext(newContext);
@@ -401,11 +601,36 @@ const Chatbot = () => {
         "Saya minta maaf jika ada kesalahpahaman. Mari kita coba pendekatan berbeda. Apa yang sebenarnya Anda cari di TeraLab?",
         "Mohon maaf atas ketidaknyamanannya. Saya ingin membantu Anda mendapatkan informasi yang tepat. Bisa dijelaskan kembali?",
         "Maaf jika saya belum memberikan jawaban yang memuaskan. Mari kita bahas topik lain yang mungkin lebih sesuai dengan kebutuhan Anda."
+      ],
+      // Fallback spesifik untuk TeraLab
+      teralab: [
+        "TeraLab adalah platform edukasi teknologi yang fokus pada pembelajaran berbasis proyek dan mentoring oleh praktisi industri. Kami menawarkan kursus di bidang pemrograman, data science, AI, dan desain digital. Apa yang ingin Anda ketahui tentang TeraLab?",
+        "TeraLab didirikan untuk memberikan pendidikan teknologi berkualitas tinggi yang langsung dapat diterapkan di dunia kerja. Kami menyediakan berbagai program mulai dari bootcamp intensif hingga kursus part-time. Ada yang spesifik tentang TeraLab yang ingin Anda tanyakan?",
+        "TeraLab menyediakan pendidikan teknologi dengan kurikulum yang dikembangkan bersama praktisi industri. Program kami mencakup berbagai bidang teknologi dengan pendekatan hands-on project dan dukungan karir. Bagian mana dari TeraLab yang ingin Anda ketahui lebih lanjut?"
       ]
     };
     
     let bestMatch = null;
     let highestSimilarity = 0;
+    
+    // Deteksi apakah pertanyaan tentang TeraLab
+    const processedInput = preprocessText(userInput);
+    const containsTeralab = processedInput.includes('teralab') || 
+                           processedInput.includes('tera lab') || 
+                           processedInput.includes('tera-lab');
+    
+    // Deteksi pertanyaan tentang cara daftar/registrasi
+    const isAboutRegistration = (
+      (processedInput.includes('cara') || 
+       processedInput.includes('bagaimana') || 
+       processedInput.includes('gimana') || 
+       processedInput.includes('how')) &&
+      (processedInput.includes('daftar') || 
+       processedInput.includes('registrasi') || 
+       processedInput.includes('bergabung') || 
+       processedInput.includes('join') ||
+       processedInput.includes('ikut'))
+    );
     
     // Cari kecocokan terbaik dari dataset
     for (const data of nlpDataset) {
@@ -413,26 +638,53 @@ const Chatbot = () => {
       
       // Beri bobot lebih jika ada kesesuaian dengan konteks
       let contextBonus = 0;
+      
+      // Bonus untuk konteks topik
       if (context.currentTopic) {
-        if (context.currentTopic === 'programming' && 
+        // Bonus untuk konteks yang relevan dengan topik
+        if ((context.currentTopic === 'programming' && 
             (data.keywords.includes('pemrograman') || data.keywords.includes('coding') || 
-             data.keywords.includes('javascript') || data.keywords.includes('python') || data.keywords.includes('java'))) {
-          contextBonus += 1;
-        } else if (context.currentTopic === 'dataScience' && 
-                  (data.keywords.includes('data') || data.keywords.includes('machine learning') || 
-                   data.keywords.includes('ai') || data.keywords.includes('analytics'))) {
-          contextBonus += 1;
-        } else if (context.currentTopic === 'design' && 
-                  (data.keywords.includes('ui') || data.keywords.includes('ux') || 
-                   data.keywords.includes('design'))) {
-          contextBonus += 1;
-        } else if (context.currentTopic === 'pricing' && 
-                  (data.keywords.includes('biaya') || data.keywords.includes('harga'))) {
-          contextBonus += 1;
-        } else if (context.currentTopic === 'schedule' && 
-                  (data.keywords.includes('jadwal') || data.keywords.includes('waktu'))) {
+             data.keywords.includes('javascript') || data.keywords.includes('python') || data.keywords.includes('java'))) ||
+            (context.currentTopic === 'dataScience' && 
+            (data.keywords.includes('data') || data.keywords.includes('machine learning') || 
+             data.keywords.includes('ai') || data.keywords.includes('analytics'))) ||
+            (context.currentTopic === 'design' && 
+            (data.keywords.includes('ui') || data.keywords.includes('ux') || 
+             data.keywords.includes('design'))) ||
+            (context.currentTopic === 'pricing' && 
+            (data.keywords.includes('biaya') || data.keywords.includes('harga'))) ||
+            (context.currentTopic === 'schedule' && 
+            (data.keywords.includes('jadwal') || data.keywords.includes('waktu')))) {
           contextBonus += 1;
         }
+        
+        // Bonus untuk konteks pendaftaran
+        if ((context.currentTopic === 'registration' || isAboutRegistration) && 
+            (data.keywords.includes('daftar') || data.keywords.includes('registrasi') || 
+             data.keywords.includes('bergabung'))) {
+          contextBonus += 3;  // Prioritas tinggi untuk pertanyaan pendaftaran
+        }
+        
+        // Bonus untuk konteks tentang TeraLab
+        if ((context.isAboutTeralab || containsTeralab) && 
+            (data.keywords.includes('tentang') || data.keywords.includes('about') || 
+             data.keywords.includes('teralab'))) {
+          contextBonus += 2;
+        }
+        
+        // Bonus untuk pertanyaan proses atau cara
+        if (context.lastQuestionType === 'how' && 
+            (data.keywords.includes('cara') || data.keywords.includes('proses') || 
+             data.keywords.includes('langkah'))) {
+          contextBonus += 2;
+        }
+      }
+      
+      // Bonus tambahan untuk keyword "daftar"/"registrasi" jika ada pertanyaan cara/bagaimana
+      if (isAboutRegistration && 
+          (data.keywords.includes('daftar') || data.keywords.includes('registrasi') || 
+           data.keywords.includes('bergabung'))) {
+        contextBonus += 3;
       }
       
       const totalSimilarity = similarity + contextBonus;
@@ -452,7 +704,13 @@ const Chatbot = () => {
       return bestMatch.responses[randomIndex];
     } else {
       // Jika tidak ada kecocokan yang signifikan, gunakan respons fallback berdasarkan sentiment
-      const sentiment = context.sentiment || 'neutral';
+      let sentiment = context.sentiment || 'neutral';
+      
+      // Gunakan fallback khusus TeraLab jika pertanyaan tentang TeraLab
+      if (containsTeralab || context.isAboutTeralab) {
+        sentiment = 'teralab';
+      }
+      
       const responses = fallbackResponses[sentiment];
       const randomIndex = Math.floor(Math.random() * responses.length);
       return responses[randomIndex];
@@ -499,6 +757,74 @@ const Chatbot = () => {
         "Berapa jam per minggu yang dapat Anda dedikasikan untuk belajar?"
       ];
       return questions[Math.floor(Math.random() * questions.length)];
+    } 
+    // Pertanyaan untuk topik tambahan tentang TeraLab
+    else if (context.currentTopic === 'registration') {
+      const questions = [
+        "Kursus atau program apa yang ingin Anda ikuti di TeraLab?",
+        "Apakah Anda lebih tertarik dengan program online atau offline?",
+        "Kapan Anda berencana untuk memulai kursus di TeraLab?",
+        "Sudah melihat halaman pendaftaran di website kami?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'about') {
+      const questions = [
+        "Apakah ada informasi spesifik tentang TeraLab yang ingin Anda ketahui?",
+        "Apakah Anda tertarik dengan sejarah atau visi misi TeraLab?",
+        "Bagaimana Anda mengetahui tentang TeraLab sebelumnya?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'requirements') {
+      const questions = [
+        "Kursus atau program apa yang Anda minati di TeraLab?",
+        "Apakah Anda sudah memiliki pengalaman sebelumnya di bidang teknologi?",
+        "Sudah memiliki perangkat yang memenuhi syarat minimum untuk belajar?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'process') {
+      const questions = [
+        "Apakah Anda membutuhkan informasi lebih detail tentang proses pembelajaran di TeraLab?",
+        "Metode belajar apa yang lebih Anda minati: online, offline, atau hybrid?",
+        "Apakah Anda ingin tahu lebih detail tentang tahapan belajar di TeraLab?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'facilities') {
+      const questions = [
+        "Fasilitas apa yang paling Anda prioritaskan dalam memilih lembaga pembelajaran?",
+        "Apakah Anda tertarik dengan program mentoring one-on-one yang kami tawarkan?",
+        "Apakah Anda ingin tahu lebih detail tentang program career support kami?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'payment') {
+      const questions = [
+        "Apakah Anda mencari opsi pembayaran cicilan tanpa kartu kredit?",
+        "Apakah Anda tertarik dengan program beasiswa yang kami tawarkan?",
+        "Metode pembayaran apa yang paling nyaman untuk Anda?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'alumni') {
+      const questions = [
+        "Apakah Anda ingin mendengar testimonial dari alumni kami?",
+        "Anda tertarik dengan karir di bidang apa setelah lulus nanti?",
+        "Apakah Anda ingin tahu tentang kesuksesan alumni kami di perusahaan tertentu?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.currentTopic === 'contact') {
+      const questions = [
+        "Ada hal spesifik yang ingin Anda tanyakan kepada tim kami?",
+        "Apakah Anda ingin kami menghubungi Anda untuk konsultasi gratis?",
+        "Metode kontak apa yang paling nyaman untuk Anda? WhatsApp, email, atau telepon?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
+    } else if (context.isAboutTeralab) {
+      // Pertanyaan lanjutan khusus tentang TeraLab
+      const questions = [
+        "Ada informasi spesifik apa tentang TeraLab yang ingin Anda ketahui lebih lanjut?",
+        "Apakah Anda tertarik untuk mengetahui program apa saja yang tersedia di TeraLab?",
+        "Apakah Anda ingin tahu lebih detail tentang cara mendaftar di TeraLab?",
+        "Bidang teknologi apa yang paling Anda minati untuk dipelajari di TeraLab?"
+      ];
+      return questions[Math.floor(Math.random() * questions.length)];
     } else if (context.mentionedTopics.length > 0) {
       // Jika tidak ada topik saat ini, tapi ada topik yang pernah dibahas
       return "Ada hal lain yang ingin Anda ketahui tentang program di TeraLab?";
@@ -508,7 +834,7 @@ const Chatbot = () => {
         "Bidang teknologi apa yang paling Anda minati?",
         "Apakah Anda mencari kursus untuk pengembangan karir atau hobi?",
         "Apa tujuan utama Anda dalam mengikuti kursus di TeraLab?",
-        "Ada pertanyaan lain yang ingin Anda tanyakan tentang TeraLab?"
+        "Apakah Anda ingin mengetahui lebih lanjut tentang TeraLab dan program-programnya?"
       ];
       return questions[Math.floor(Math.random() * questions.length)];
     }
